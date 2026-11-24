@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Heartland Dev Bot</title>
+<style>
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 680px; margin: 48px auto; padding: 0 20px; color: #1d1d1f; }
+  h1 { font-size: 28px; }
+  h2 { font-size: 19px; margin-top: 32px; }
+  a { color: #0b57d0; }
+  footer { margin-top: 48px; font-size: 14px; color: #666; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p>This policy covers Heartland Dev Bot ("the app"), a private tool its developer runs on their own computer. The only Google account the app signs in to is its developer's own.</p>
+
+<h2>What data the app accesses</h2>
+<ul>
+  <li><strong>Gmail</strong> (scope <code>gmail.modify</code>): the app searches the signed-in mailbox for messages from one pre-approved sender. It reads those messages and their authentication results, sends replies in the same threads, sends notices to the account owner, and adds a label to messages it has handled. It doesn't read mail from any other sender, and it never permanently deletes mail.</li>
+  <li><strong>Google Drive</strong> (scope <code>drive.file</code>): the app creates folders of website preview screenshots, shares them by link with the person who requested the change, and moves each folder to the trash once the change is approved. It can't see or change any other files in Drive.</li>
+</ul>
+
+<h2>How the data is used</h2>
+<p>The app uses this data only to handle website change requests: to decide what change was asked for, to prepare and preview it, and to report back. Email text is sent to an AI model provider (Anthropic) to understand the request and write the reply. It isn't used for advertising, isn't sold, and isn't shared with anyone else.</p>
+
+<h2>Storage and retention</h2>
+<p>The app keeps an audit log of messages handled and actions taken, plus its sign-in token, on its developer's own computer. Nothing is stored on servers run by the app. Preview folders in Drive are trashed once the change is approved.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>The app's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Revoking access</h2>
+<p>The account owner can revoke the app's access at any time at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy can be raised on the app's <a href="https://github.com/ThePROX/heartland-dev-bot/issues">GitHub page</a>.</p>
+
+<footer>Last updated November 23, 2026. <a href="index.html">Home</a></footer>
+</body>
+</html>
